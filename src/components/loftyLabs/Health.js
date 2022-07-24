@@ -1,5 +1,5 @@
 import React from "react";
-import { GiMedicalDrip } from "react-icons/gi";
+import { GiHealthNormal, GiMedicalDrip } from "react-icons/gi";
 import SubChild from "../SubChild";
 
 const Health = () => {
@@ -11,11 +11,11 @@ const Health = () => {
       <div className="section  absolute top-0 left-0 duration-300 bg-5">
         <div className="flex justify-center items-center gap-5">
           <span className="text-white text-4xl">
-            <GiMedicalDrip />
+            <GiHealthNormal />
           </span>
           <div className="text-white">
-            <h3 className="text-2xl font-bold">Healing Health</h3>
-            <p className="text-sm ">
+            <h3 className="header-title">Healing Health</h3>
+            <p className="header-info ">
               Requires COVID19 Test and Staff Passport credentials.
             </p>
           </div>

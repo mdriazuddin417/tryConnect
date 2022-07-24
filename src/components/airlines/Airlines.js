@@ -1,5 +1,6 @@
 import React from "react";
-import { GiMedicalDrip } from "react-icons/gi";
+import { FiAirplay } from "react-icons/fi";
+
 import SubChild from "../SubChild";
 
 const Airlines = () => {
@@ -11,11 +12,11 @@ const Airlines = () => {
       <div className="section  absolute top-0 left-0 duration-300 bg-8">
         <div className="flex justify-center items-center gap-5">
           <span className="text-white text-4xl">
-            <GiMedicalDrip />
+            <FiAirplay />
           </span>
           <div className="text-white">
-            <h3 className="text-2xl font-bold">Affordable Airlines</h3>
-            <p className="text-sm ">
+            <h3 className="header-title">Affordable Airlines</h3>
+            <p className="header-info">
               Passport and COVID19 Test credentials required to fly.
             </p>
           </div>

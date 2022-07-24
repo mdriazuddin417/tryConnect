@@ -15,8 +15,8 @@ const Medical = () => {
             <GiMedicalDrip />
           </span>
           <div className="text-white">
-            <h3 className="text-2xl font-bold">SunCrest Medical</h3>
-            <p className="text-sm ">
+            <h3 className="header-title">SunCrest Medical</h3>
+            <p className="header-info">
               Get Proof of Employment and Staff Passport credentials here
             </p>
           </div>

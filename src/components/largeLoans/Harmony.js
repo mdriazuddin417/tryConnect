@@ -1,5 +1,6 @@
 import React from "react";
-import { GiMedicalDrip } from "react-icons/gi";
+import { FiHome } from "react-icons/fi";
+
 import SubChild from "../SubChild";
 
 const Harmony = () => {
@@ -11,11 +12,11 @@ const Harmony = () => {
       <div className="section  absolute top-0 left-0 duration-300 bg-7">
         <div className="flex justify-center items-center gap-5">
           <span className="text-white text-4xl">
-            <GiMedicalDrip />
+            <FiHome />
           </span>
           <div className="text-white">
-            <h3 className="text-2xl font-bold">Harmony Homes</h3>
-            <p className="text-sm ">
+            <h3 className="header-title">Harmony Homes</h3>
+            <p className="header-info">
               Loan Approval required. Build your dream home with Harmony Homes.
             </p>
           </div>

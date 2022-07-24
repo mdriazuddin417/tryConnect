@@ -34,7 +34,7 @@ body {
 }
 
 .container {
-  @apply w-[80%] mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border  pt-16 pb-24;
+  @apply lg:w-[80%] md:w-[90%] w-full mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border  pt-16 pb-24;
 }
 .container-child {
   @apply flex justify-center items-center gap-5 text-sm  bg-[#F5F5F5] absolute bottom-0 left-0 py-5 w-full rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border;
@@ -43,6 +43,17 @@ body {
   @apply p-4 w-[80%] rounded-full border border-gray-200 bg-white absolute -top-5 left-[10%];
 }
 
-.section{
-@apply  h-[100px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full 
+.header-title{
+  @apply lg:text-2xl md:text-xl  font-bold
 }
+.header-info{
+  @apply lg:text-sm md:text-sm text-xs
+}
+.section{
+@apply lg:h-[100px] md:h-[100px] sm:h-[90px] h-[80px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full 
+}
+
+.parent-section:hover .section{
+  @apply w-[70%]
+}
+
