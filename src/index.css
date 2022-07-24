@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body{
+    background: #edf3f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    @apply w-[80%] mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border space-y-8 pt-16 pb-28
+}
+
+.bg-1{
+@apply  bg-gradient-to-r from-[#E38364] to-[#e0725a]
+}
+.bg-2{
+@apply  bg-gradient-to-r from-[#8C7FDD] to-[#6F5ED8]
+}
+.bg-3{
+@apply  bg-gradient-to-r from-[#FCA43E] to-[#EAB124]
+}
