@@ -9,7 +9,13 @@ body{
 }
 
 .container{
-    @apply w-[80%] mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border space-y-8 pt-16 pb-28
+    @apply w-[80%] mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border space-y-8 pt-10 pb-24 
+}
+.container-child{
+    @apply flex justify-center items-center gap-5 text-sm  bg-[#F5F5F5] absolute bottom-0 left-0 py-5 w-full rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border
+}
+.container-top{
+    @apply p-4 w-[80%] rounded-full border border-gray-200 bg-white absolute -top-5 left-[10%]
 }
 
 .bg-1{
@@ -20,4 +26,19 @@ body{
 }
 .bg-3{
 @apply  bg-gradient-to-r from-[#FCA43E] to-[#EAB124]
+}
+.bg-4{
+@apply  bg-gradient-to-r to-[#C44A8C] from-[#E06DAB]
+}
+.bg-5{
+@apply  bg-gradient-to-r from-[#4FC47E] to-[#6ED999]
+}
+.bg-6{
+@apply  bg-gradient-to-r from-[#86B93C] to-[#97C159]
+}
+.bg-7{
+@apply  bg-gradient-to-r from-[#5094BB] to-[#63AED9]
+}
+.bg-8{
+@apply  bg-gradient-to-r from-[#3CC1B1] to-[#13D1BA]
 }

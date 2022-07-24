@@ -1,21 +1,18 @@
 import React from "react";
-import CreateUnion from "../sunCrestMedical/CreateUnion";
-import Medical from "../sunCrestMedical/Medical";
-import Passport from "../sunCrestMedical/Passport";
+import Airlines from "../airlines/Airlines";
 
-const SunCrestMedical = () => {
+const AirlinesParent = () => {
   return (
     <div className="container">
       <div className="container-top text-center">
         <p className="text-sm">
-          It’s your first day of work at{" "}
-          <span className="font-bold">Suncrest Medical</span>. Looks like you’ve
-          got some things to set up. Get started with your employee credentials!
+          You’ve had a long first week and you need a break. Head to{" "}
+          <span className="font-bold">Affordable Airlines</span> to board your
+          flight.
         </p>
       </div>
-      <Medical />
-      <Passport />
-      <CreateUnion />
+      <Airlines />
+
       <div className="container-child">
         <p>Demonstrates: </p>
         <span className="px-[3px] py-[1px] border border-gray-400 rounded-full bg-white">
@@ -32,4 +29,4 @@ const SunCrestMedical = () => {
   );
 };
 
-export default SunCrestMedical;
+export default AirlinesParent;
