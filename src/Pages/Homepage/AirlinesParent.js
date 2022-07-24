@@ -1,5 +1,5 @@
 import React from "react";
-import Airlines from "../airlines/Airlines";
+import Airlines from "../../components/airlines/Airlines";
 
 const AirlinesParent = () => {
   return (

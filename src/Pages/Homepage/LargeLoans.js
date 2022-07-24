@@ -1,7 +1,7 @@
 import React from "react";
-import Loans from "../largeLoans/Loans";
-import Harmony from "../largeLoans/Harmony";
-
+import Loans from "../../components/largeLoans/Loans";
+import Harmony from "../../components/largeLoans/Harmony";
+import { Link } from "react-router-dom";
 const LargeLoans = () => {
   return (
     <div className="container">
@@ -11,9 +11,19 @@ const LargeLoans = () => {
           loan at <span className="font-bold">Large Loans</span> to get started.
         </p>
       </div>
+      <div className="space-y-8">
+        <div>
+          <Link to={"/"}>
+            <Loans />
+          </Link>
+        </div>
+        <div>
+          <Link to={"/"}>
+            <Harmony />
+          </Link>
+        </div>
+      </div>
 
-      <Loans />
-      <Harmony />
       <div className="container-child">
         <p>Demonstrates: </p>
         <span className="px-[3px] py-[1px] border border-gray-400 rounded-full bg-white">

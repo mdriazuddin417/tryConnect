@@ -1,6 +1,7 @@
 import React from "react";
-import Health from "../loftyLabs/Health";
-import Labs from "../loftyLabs/Labs";
+import Health from "../../components/loftyLabs/Health";
+import Labs from "../../components/loftyLabs/Labs";
+import { Link } from "react-router-dom";
 const LoftyLabs = () => {
   return (
     <div className="container">
@@ -11,8 +12,18 @@ const LoftyLabs = () => {
         </p>
       </div>
 
-      <Labs />
-      <Health />
+      <div className="space-y-8">
+        <div>
+          <Link to={"/"}>
+            <Health />
+          </Link>
+        </div>
+        <div>
+          <Link to={"/"}>
+            <Labs />
+          </Link>
+        </div>
+      </div>
       <div className="container-child">
         <p>Demonstrates: </p>
         <span className="px-[3px] py-[1px] border border-gray-400 rounded-full bg-white">
