@@ -13,12 +13,12 @@ const LargeLoans = () => {
       </div>
       <div className="space-y-8">
         <div>
-          <Link to={"/"}>
+          <Link to={"/LargeLoans"}>
             <Loans />
           </Link>
         </div>
         <div>
-          <Link to={"/"}>
+          <Link to={"/HarmonyHomes"}>
             <Harmony />
           </Link>
         </div>

@@ -7,20 +7,20 @@ const LoftyLabsChildren = ({ setActive }) => {
   return (
     <div className="w-[80%] text-center mx-auto space-y-8">
       <div className="w-[70%] mx-auto  space-y-8">
-        <h3 className="text-4xl text-4 font-semibold">
-          Get your COVID19 antibody test here.
+        <h3 className="text-4xl text-6 font-semibold">
+          Welcome to Large Loans.
         </h3>
         <p className="text-xl text-gray-700">
-          In order to travel these days, you, as Alice, must have a recent
-          COVID19 test.
+          As Alice, you have decided to go with Large Loans as your mortgage
+          lender.
         </p>
       </div>
       <div className="flex justify-center items-center text-white header-title">
         <span
           onClick={handleActive}
-          className="bg-4 p-4 rounded-full cursor-pointer flex items-center"
+          className="bg-6 p-4 rounded-full cursor-pointer flex items-center"
         >
-          Get my test results
+          Apply for a mortgage loan
         </span>
       </div>
     </div>

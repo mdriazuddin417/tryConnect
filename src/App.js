@@ -5,6 +5,8 @@ import SunCrestMedical from "./Pages/sunCrestMedical/SunCrestMedical";
 import PassPortOffice from "./Pages/passportOffice/PassPortOffice";
 import HappyMembersCreditUnion from "./Pages/HappyMembersCreditUnion/HappyMembersCreditUnion";
 import LoftyLabs from "./Pages/LoftyLabs/LoftyLabs";
+import HealingHealth from "./Pages/HealingHealth/HealingHealth";
+import LargeLoans from "./Pages/LargeLoansPage/LargeLoans";
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           element={<HappyMembersCreditUnion />}
         />
         <Route path="/LoftyLabs" element={<LoftyLabs />} />
+        <Route path="/HealingHealth" element={<HealingHealth />} />
+        <Route path="/LargeLoans" element={<LargeLoans />} />
+        <Route path="/HarmonyHomes" element={<LargeLoans />} />
       </Routes>
     </div>
   );
