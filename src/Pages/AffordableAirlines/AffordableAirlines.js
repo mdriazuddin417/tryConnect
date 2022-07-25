@@ -30,11 +30,13 @@ const AffordableAirlines = () => {
           <ul className="lg:text-xl text-lg list-disc">
             <li>
               COVID19 Test from
-              <span className="underline">Lofty Labs</span>
+              <span className="underline cursor-pointer">Lofty Labs</span>
             </li>
             <li>
               Passport from
-              <span className="underline">Parcadia Passport Office</span>
+              <span className="underline cursor-pointer">
+                Parcadia Passport Office
+              </span>
             </li>
           </ul>
           <RequiredBtn
@@ -48,9 +50,10 @@ const AffordableAirlines = () => {
       {checkNo && !active && !checkYes && (
         <div className="w-[70%] mx-auto flex  justify-center items-center text-center px-10">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
-            Go get your <span className="underline">COVID19 Test</span> and
-            <span className="underline"> Passport </span> credentials. Then come
-            back.
+            Go get your{" "}
+            <span className="underline cursor-pointer">COVID19 Test</span> and
+            <span className="underline cursor-pointer"> Passport </span>{" "}
+            credentials. Then come back.
           </h3>
         </div>
       )}

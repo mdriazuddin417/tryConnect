@@ -9,14 +9,14 @@ const BackPage = ({ text, bg }) => {
   };
   return (
     <div
-      className={`py-8 ${bg} md:flex lg:flex justify-between items-center px-6 grid grid-cols-1 gap-2 text-center flex-row-reverse`}
+      className={`py-8 ${bg} md:flex lg:flex justify-between items-center px-6 grid grid-cols-1 gap-3 text-center flex-row-reverse`}
     >
       <span className="text-white">
         Want to try this for real?{" "}
-        <span className="font-bold underline ">Contact us</span>
+        <span className="font-bold underline cursor-pointer ">Contact us</span>
       </span>
       <span
-        className={`text-2xl bg-white p-5 rounded-full font-bold ${text} flex items-center gap-4 cursor-pointer hover:bg-gray-200 justify-center`}
+        className={`lg:text-2xl text-xl bg-white p-5 rounded-full font-bold ${text} flex items-center gap-4 cursor-pointer hover:bg-gray-200 justify-center`}
         onClick={backPage}
       >
         <FiArrowLeft /> Go Back

@@ -29,8 +29,10 @@ const LoftyLabs = () => {
           </h3>
           <p className="lg:text-xl text-lg text-center">
             A digital Passport from
-            <span className="underline ">Parcadia Passport Office</span> is
-            required to get your COVID19 Test.
+            <span className="underline cursor-pointer ">
+              Parcadia Passport Office
+            </span>{" "}
+            is required to get your COVID19 Test.
           </p>
           <RequiredBtn
             bg={"bg-4"}
@@ -44,8 +46,10 @@ const LoftyLabs = () => {
         <div className="flex  justify-center items-center">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Go get your Passport from
-            <span className="underline">Parcadia Passport Office</span>Then come
-            back.
+            <span className="underline cursor-pointer">
+              Parcadia Passport Office
+            </span>
+            Then come back.
           </h3>
         </div>
       )}

@@ -29,11 +29,14 @@ const HealingHealth = () => {
           </h3>
           <ul className="lg:text-xl text-lg list-disc">
             <li>
-              COVID19 Test from <span className="underline">Lofty Labs</span>
+              COVID19 Test from{" "}
+              <span className="underline cursor-pointer">Lofty Labs</span>
             </li>
             <li>
               Staff Passport from
-              <span className="underline">SunCrest Medical</span>{" "}
+              <span className="underline cursor-pointer">
+                SunCrest Medical
+              </span>{" "}
             </li>
           </ul>
           <RequiredBtn
@@ -48,8 +51,13 @@ const HealingHealth = () => {
         <div className="flex  justify-center items-center text-center px-10">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
             Go get your{" "}
-            <span className="underline cursor-pointer">COVID19 Test</span> and{" "}
-            <span className="underline cursor-pointer">Staff Passport</span>{" "}
+            <span className="underline cursor-pointer cursor-pointer">
+              COVID19 Test
+            </span>{" "}
+            and{" "}
+            <span className="underline cursor-pointer cursor-pointer">
+              Staff Passport
+            </span>{" "}
             credentials. Then come back.
           </h3>
         </div>

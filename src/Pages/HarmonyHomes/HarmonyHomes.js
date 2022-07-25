@@ -25,7 +25,8 @@ const HarmonyHomes = () => {
       {active && (
         <div className="flex flex-col justify-center items-center space-y-4">
           <h3 className="text-lg text-center">
-            You need a <span className="underline">Loan Approval</span> from
+            You need a{" "}
+            <span className="underline cursor-pointer">Loan Approval</span> from
             Large Loans to continue.
           </h3>
 
@@ -41,7 +42,8 @@ const HarmonyHomes = () => {
         <div className="flex  justify-center items-center text-center px-10">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-7   ">
             Go get your Loan Approval from{" "}
-            <span className="underline">Large Loans</span> Then come back.
+            <span className="underline cursor-pointer">Large Loans</span> Then
+            come back.
           </h3>
         </div>
       )}

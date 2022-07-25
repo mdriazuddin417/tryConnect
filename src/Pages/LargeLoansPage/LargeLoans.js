@@ -30,11 +30,13 @@ const LargeLoans = () => {
           <ul className="lg:text-xl text-lg list-disc px-4">
             <li>
               Proof of Employment from{" "}
-              <span className="underline">SunCrest Medical </span>
+              <span className="underline cursor-pointer">
+                SunCrest Medical{" "}
+              </span>
             </li>
             <li>
               Financial Statement from
-              <span className="underline">
+              <span className="underline cursor-pointer">
                 Happy Members Credit Union{" "}
               </span>{" "}
             </li>
@@ -50,7 +52,10 @@ const LargeLoans = () => {
       {checkNo && !active && !checkYes && (
         <div className="flex  justify-center items-center text-center px-10">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-6">
-            Go get your <span className="underline">Proof of Employment</span>{" "}
+            Go get your{" "}
+            <span className="underline cursor-pointer">
+              Proof of Employment
+            </span>{" "}
             and Financial Statement credentials. Then come back.
           </h3>
         </div>
