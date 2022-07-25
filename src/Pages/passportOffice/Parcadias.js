@@ -4,11 +4,11 @@ import { FiDownload } from "react-icons/fi";
 const Parcadias = ({ setActive }) => {
   return (
     <div className="w-[80%] text-center mx-auto space-y-8">
-      <div className="w-[70%] mx-auto  space-y-8">
-        <h3 className="text-3xl text-[#6F5ED8] font-semibold">
+      <div className="lg:w-[70%] mx-auto  space-y-8">
+        <h3 className="lg:text-4xl md:text-3xl text-[28px] text-2 ">
           Welcome to Parcadia’s Passport Office.
         </h3>
-        <p className="text-xl text-gray-700">
+        <p className="lg:text-xl md:text-lg text-[15px] text-gray-700">
           You are a citizen of the ficticious nation, Parcadia. It is a
           technologically advanced nation, and they only issue passports
           digitally. Get yours now.

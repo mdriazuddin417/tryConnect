@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { GiMedicalDrip } from "react-icons/gi";
+import MedicalChild from "../../components/sunCrestMedical/MedicalChild";
 import Choose from "./Choose";
 import StaffPassport from "./StaffPassport";
 import Employment from "./Employment";
@@ -15,17 +15,7 @@ const SunCrestMedical = () => {
     <div className="h-screen flex flex-col justify-between ">
       <div className="p-5">
         <div className="section bg-1 ">
-          <div className="flex justify-center items-center gap-5">
-            <span className="text-white text-4xl">
-              <GiMedicalDrip />
-            </span>
-            <div className="text-white">
-              <h3 className="header-title">SunCrest Medical</h3>
-              <p className="header-info ">
-                Get Proof of Employment and Staff Passport credentials here
-              </p>
-            </div>
-          </div>
+          <MedicalChild />
         </div>
       </div>
       {active1 || active2 || active3 || (

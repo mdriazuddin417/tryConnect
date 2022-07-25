@@ -66,15 +66,20 @@ body {
 .container-top {
   @apply w-[70%] mx-auto rounded-[25px] border border-gray-200 bg-white text-center p-[15px] relative z-40 transform translate-y-[-50%]   text-xs lg:text-sm
 }
-
+.header-icon{
+  @apply text-white text-5xl
+}
+.header-text{
+  @apply text-white lg:p-0 md:p-2 p-4
+}
 .header-title{
-  @apply lg:text-2xl md:text-xl  font-bold
+  @apply lg:text-2xl md:text-xl text-lg  font-bold
 }
 .header-info{
   @apply lg:text-sm md:text-sm text-xs
 }
 .section{
-@apply lg:h-[90px] md:h-[90px] h-[80px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full z-50
+@apply h-[100px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full z-50
 }
 .parent-section{
   @apply flex flex-col-reverse relative
