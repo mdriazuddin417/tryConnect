@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Airlines from "../../components/airlines/Airlines";
 
 const AirlinesParent = () => {
@@ -11,7 +12,12 @@ const AirlinesParent = () => {
           flight.
         </p>
       </div>
-      <Airlines />
+
+      <div>
+        <Link to={"/AffordableAirlines"}>
+          <Airlines />
+        </Link>
+      </div>
 
       <div className="container-child">
         <p>Demonstrates: </p>

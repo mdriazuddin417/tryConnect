@@ -7,6 +7,8 @@ import HappyMembersCreditUnion from "./Pages/HappyMembersCreditUnion/HappyMember
 import LoftyLabs from "./Pages/LoftyLabs/LoftyLabs";
 import HealingHealth from "./Pages/HealingHealth/HealingHealth";
 import LargeLoans from "./Pages/LargeLoansPage/LargeLoans";
+import HarmonyHomes from "./Pages/HarmonyHomes/HarmonyHomes";
+import AffordableAirlines from "./Pages/AffordableAirlines/AffordableAirlines";
 
 function App() {
   return (
@@ -22,7 +24,8 @@ function App() {
         <Route path="/LoftyLabs" element={<LoftyLabs />} />
         <Route path="/HealingHealth" element={<HealingHealth />} />
         <Route path="/LargeLoans" element={<LargeLoans />} />
-        <Route path="/HarmonyHomes" element={<LargeLoans />} />
+        <Route path="/HarmonyHomes" element={<HarmonyHomes />} />
+        <Route path="/AffordableAirlines" element={<AffordableAirlines />} />
       </Routes>
     </div>
   );
