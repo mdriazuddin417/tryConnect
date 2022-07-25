@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { GiMedicalDrip } from "react-icons/gi";
 import { FiArrowLeft } from "react-icons/fi";
 import { useNavigate } from "react-router-dom";
 import Choose from "./Choose";
+import StaffPassport from "./StaffPassport";
+import Employment from "./Employment";
+import SetupLogin from "./SetupLogin";
+import BackPage from "../../components/Shared/BackPage";
 
 const SunCrestMedical = () => {
+  const [active1, setActive1] = useState(false);
+  const [active2, setActive2] = useState(false);
+  const [active3, setActive3] = useState(false);
   const navigate = useNavigate();
   const backPage = () => {
     navigate("/");
@@ -27,19 +34,31 @@ const SunCrestMedical = () => {
           </div>
         </div>
       </div>
-      <Choose />
-      <div className="py-8 bg-1 flex justify-between items-center px-6 ">
-        <span
-          className="text-2xl bg-white p-5 rounded-full font-bold text-[#e0725a] flex items-center gap-2 cursor-pointer"
-          onClick={backPage}
-        >
-          <FiArrowLeft /> Go Back
-        </span>
-        <span className="text-white">
-          Want to try this for real?{" "}
-          <span className="font-bold underline ">Contact us</span>
-        </span>
-      </div>
+      {active1 || active2 || active3 || (
+        <div>
+          <Choose
+            setActive1={setActive1}
+            setActive2={setActive2}
+            setActive3={setActive3}
+          />
+        </div>
+      )}
+      {active1 && (
+        <div>
+          <StaffPassport setActive1={setActive1} />
+        </div>
+      )}
+      {active2 && (
+        <div>
+          <Employment setActive2={setActive2} />
+        </div>
+      )}
+      {active3 && (
+        <div>
+          <SetupLogin setActive3={setActive3} />
+        </div>
+      )}
+      <BackPage text="e0725a" bg="bg-1" />
     </div>
   );
 };

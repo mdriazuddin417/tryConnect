@@ -20,7 +20,7 @@ const Medicals = () => {
           </Link>
         </div>
         <div>
-          <Link to={"/"}>
+          <Link to={"/passportOffice"}>
             <Passport />
           </Link>
         </div>
