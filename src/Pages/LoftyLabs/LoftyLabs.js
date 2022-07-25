@@ -24,8 +24,10 @@ const LoftyLabs = () => {
 
       {active && (
         <div className="flex flex-col justify-center items-center">
-          <h3 className="text-4xl text-4">Do you have your passport?</h3>
-          <p className="text-xl">
+          <h3 className="lg:text-4xl text-2xl text-4">
+            Do you have your passport?
+          </h3>
+          <p className="lg:text-xl text-lg text-center">
             A digital Passport from
             <span className="underline ">Parcadia Passport Office</span> is
             required to get your COVID19 Test.
@@ -40,7 +42,7 @@ const LoftyLabs = () => {
       )}
       {checkNo && !active && !checkYes && (
         <div className="flex  justify-center items-center">
-          <h3 className="text-4xl text-4">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Go get your Passport from
             <span className="underline">Parcadia Passport Office</span>Then come
             back.
@@ -49,10 +51,10 @@ const LoftyLabs = () => {
       )}
       {(checkYes || (checkNo && active)) && (
         <div className="flex flex-col justify-center items-center">
-          <h3 className="text-4xl text-4">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Please scan the code and share your Passport using Connect.Me.
           </h3>
-          <p className="text-lg italic">
+          <p className=" text-lg italic">
             This page will refresh automatically.
           </p>
           <RefreshData

@@ -24,7 +24,7 @@ const HarmonyHomes = () => {
 
       {active && (
         <div className="flex flex-col justify-center items-center space-y-4">
-          <h3 className="text-lg">
+          <h3 className="text-lg text-center">
             You need a <span className="underline">Loan Approval</span> from
             Large Loans to continue.
           </h3>
@@ -39,7 +39,7 @@ const HarmonyHomes = () => {
       )}
       {checkNo && !active && !checkYes && (
         <div className="flex  justify-center items-center text-center px-10">
-          <h3 className="text-4xl text-7">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-7   ">
             Go get your Loan Approval from{" "}
             <span className="underline">Large Loans</span> Then come back.
           </h3>
@@ -47,7 +47,7 @@ const HarmonyHomes = () => {
       )}
       {(checkYes || (checkNo && active)) && (
         <div className="flex flex-col justify-center items-center text-center px-10">
-          <h3 className="text-3xl text-7">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-7">
             Please scan the code to share your Loan Approval.
           </h3>
           <p className="text-lg italic">

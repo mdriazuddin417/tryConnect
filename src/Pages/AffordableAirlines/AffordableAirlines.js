@@ -24,10 +24,10 @@ const AffordableAirlines = () => {
 
       {active && (
         <div className="flex flex-col justify-center items-center space-y-10">
-          <h3 className="text-4xl text-8">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Do you have both of these credentials?
           </h3>
-          <ul className="text-xl list-disc">
+          <ul className="lg:text-xl text-lg list-disc">
             <li>
               COVID19 Test from
               <span className="underline">Lofty Labs</span>
@@ -47,7 +47,7 @@ const AffordableAirlines = () => {
       )}
       {checkNo && !active && !checkYes && (
         <div className="w-[70%] mx-auto flex  justify-center items-center text-center px-10">
-          <h3 className="text-4xl text-8">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Go get your <span className="underline">COVID19 Test</span> and
             <span className="underline"> Passport </span> credentials. Then come
             back.
@@ -56,7 +56,7 @@ const AffordableAirlines = () => {
       )}
       {(checkYes || (checkNo && active)) && (
         <div className="flex flex-col justify-center items-center text-center px-10">
-          <h3 className="text-3xl text-8">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Please scan the code and share your information using Connect.Me.
           </h3>
           <p className="text-lg italic">

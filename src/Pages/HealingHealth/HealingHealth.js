@@ -24,10 +24,10 @@ const HealingHealth = () => {
 
       {active && (
         <div className="flex flex-col justify-center items-center">
-          <h3 className="text-4xl text-5">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
             Do you have both of these credentials?
           </h3>
-          <ul className="text-xl list-disc">
+          <ul className="lg:text-xl text-lg list-disc">
             <li>
               COVID19 Test from <span className="underline">Lofty Labs</span>
             </li>
@@ -46,7 +46,7 @@ const HealingHealth = () => {
       )}
       {checkNo && !active && !checkYes && (
         <div className="flex  justify-center items-center text-center px-10">
-          <h3 className="text-4xl text-5">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
             Go get your{" "}
             <span className="underline cursor-pointer">COVID19 Test</span> and{" "}
             <span className="underline cursor-pointer">Staff Passport</span>{" "}
@@ -56,7 +56,7 @@ const HealingHealth = () => {
       )}
       {(checkYes || (checkNo && active)) && (
         <div className="flex flex-col justify-center items-center">
-          <h3 className="text-4xl text-5">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-5 text-center">
             Please scan the code and share your Passport using Connect.Me.
           </h3>
           <p className="text-lg italic">

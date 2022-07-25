@@ -5,11 +5,11 @@ import RefreshData from "../../components/Shared/RefreshData";
 const Employment = ({ setActive2 }) => {
   return (
     <div className="w-[80%] text-center mx-auto space-y-8">
-      <div className="w-[70%] mx-auto  space-y-2">
-        <h3 className="text-3xl text-[#e0725a] ">
+      <div className="lg:w-[70%] mx-auto  space-y-2">
+        <h3 className="lg:text-3xl text-xl text-[#e0725a] ">
           Scan the code with your Connect.Me app.
         </h3>
-        <p className="text-xl text-gray-700">
+        <p className="lg:text-xl text-lg text-gray-700 italic">
           This page will refresh automatically.
         </p>
       </div>

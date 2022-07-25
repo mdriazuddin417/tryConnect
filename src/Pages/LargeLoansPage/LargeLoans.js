@@ -23,11 +23,11 @@ const LargeLoans = () => {
       )}
 
       {active && (
-        <div className="flex flex-col justify-center items-center space-y-4">
-          <h3 className="text-5xl text-6">
+        <div className="flex flex-col justify-center items-center space-y-4 px-3">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-6  ">
             Do you have both of these credentials?
           </h3>
-          <ul className="text-xl list-disc">
+          <ul className="lg:text-xl text-lg list-disc px-4">
             <li>
               Proof of Employment from{" "}
               <span className="underline">SunCrest Medical </span>
@@ -49,7 +49,7 @@ const LargeLoans = () => {
       )}
       {checkNo && !active && !checkYes && (
         <div className="flex  justify-center items-center text-center px-10">
-          <h3 className="text-4xl text-6">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-6">
             Go get your <span className="underline">Proof of Employment</span>{" "}
             and Financial Statement credentials. Then come back.
           </h3>
@@ -57,7 +57,7 @@ const LargeLoans = () => {
       )}
       {(checkYes || (checkNo && active)) && (
         <div className="flex flex-col justify-center items-center text-center px-10">
-          <h3 className="text-3xl text-6">
+          <h3 className="lg:text-4xl md:text-3xl text-2xl text-6">
             Please scan the code and share your Passport using Connect.Me.
           </h3>
           <p className="text-lg italic">
