@@ -58,13 +58,13 @@ body {
 }
 
 .container {
-  @apply lg:w-[80%] md:w-[90%] w-full mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border  pt-16 pb-24;
+  @apply lg:w-[80%] md:w-[90%] w-full mx-auto bg-white relative  rounded-[36px] border-gray-200 shadow border
 }
 .container-child {
-  @apply flex justify-center items-center gap-5 text-sm  bg-[#F5F5F5] absolute bottom-0 left-0 py-5 w-full rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border;
+  @apply flex justify-center flex-wrap items-center gap-5   bg-[#F5F5F5]  py-4   rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border mt-5 lg:text-sm text-xs ;
 }
 .container-top {
-  @apply p-4 w-[80%] rounded-full border border-gray-200 bg-white absolute -top-5 left-[10%];
+  @apply w-[70%] mx-auto rounded-[25px] border border-gray-200 bg-white text-center p-[15px] relative z-40 transform translate-y-[-50%]   text-xs lg:text-sm
 }
 
 .header-title{
@@ -74,10 +74,12 @@ body {
   @apply lg:text-sm md:text-sm text-xs
 }
 .section{
-@apply lg:h-[100px] md:h-[100px] sm:h-[90px] h-[80px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full 
+@apply lg:h-[90px] md:h-[90px] h-[80px] px-4  rounded-[25px] cursor-pointer flex justify-start items-center w-full z-50
+}
+.parent-section{
+  @apply flex flex-col-reverse relative
 }
 
 .parent-section:hover .section{
-  @apply w-[70%]
+  @apply lg:w-[70%] md:w-[70%] w-full
 }
-

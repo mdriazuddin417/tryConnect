@@ -3,7 +3,7 @@ import { GiMedicalDrip } from "react-icons/gi";
 
 const MedicalChild = () => {
   return (
-    <div className="flex justify-center items-center gap-5">
+    <div className="flex justify-center items-center gap-5 z-50">
       <span className="text-white text-4xl">
         <GiMedicalDrip />
       </span>

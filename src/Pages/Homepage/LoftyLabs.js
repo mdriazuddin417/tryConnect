@@ -6,13 +6,13 @@ const LoftyLabs = () => {
   return (
     <div className="container">
       <div className="container-top text-center">
-        <p className="text-sm">
+        <p>
           Your employer has requested that you get a covid test at{" "}
           <span className="font-bold">Lofty Labs</span>.
         </p>
       </div>
 
-      <div className="space-y-8">
+      <div className="space-y-6 px-[36px]">
         <div>
           <Link to={"/LoftyLabs"}>
             <Labs />
@@ -26,10 +26,10 @@ const LoftyLabs = () => {
       </div>
       <div className="container-child">
         <p>Demonstrates: </p>
-        <span className="px-[3px] py-[1px] border border-gray-400 rounded-full bg-white">
+        <span className="px-[4px] py-[1px] border border-gray-400 rounded-full bg-white">
           Credential Issuance
         </span>
-        <span className="px-[3px] py-[1px] border border-gray-400 rounded-full bg-white">
+        <span className="px-[4px] py-[1px] border border-gray-400 rounded-full bg-white">
           Credential Verification
         </span>
       </div>
