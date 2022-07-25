@@ -19,12 +19,16 @@ const RefreshData = ({ setActive, bg, setCheckNo, setCheckYes }) => {
   return (
     <>
       <div className="flex justify-center items-center">
-        {open ? <Loading /> : <img src={code} alt="" className="w-36 my-8" />}
+        {open ? (
+          <Loading />
+        ) : (
+          <img src={code} alt="" className="lg:w-36 md:w-32 w-28 my-8" />
+        )}
       </div>
       <div className="flex justify-center items-center text-white">
         <button
           onClick={CancelBtn}
-          className={`${bg} px-4 py-3 text-3xl rounded-full flex justify-center gap-2`}
+          className={`${bg} lg:px-4 px-3  py-3  lg:text-3xl text-2xl rounded-full flex justify-center gap-2`}
         >
           ✖ Cancel
         </button>

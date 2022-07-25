@@ -15,13 +15,13 @@ const RequiredBtn = ({ setCheckYes, setCheckNo, setActive, bg }) => {
       className="text-white flex justify-center items-center gap-10 mt-10"
     >
       <button
-        className={`${bg} text-3xl p-4 font-semibold flex gap-3 rounded-full`}
+        className={`${bg} lg:text-3xl text-2xl lg:p-4 p-3 font-semibold flex gap-3 rounded-full`}
       >
         ✖ No
       </button>
       <button
         onClick={handleYesBtn}
-        className={`${bg} text-3xl p-4 font-semibold flex gap-3 rounded-full`}
+        className={`${bg} lg:text-3xl text-2xl lg:p-4 p-3 font-semibold flex gap-3 rounded-full`}
       >
         ✔ Yes
       </button>

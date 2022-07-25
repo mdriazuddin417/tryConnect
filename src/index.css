@@ -61,7 +61,7 @@ body {
   @apply lg:w-[80%] md:w-[90%] w-full mx-auto bg-white relative  rounded-[36px] border-gray-200 shadow border
 }
 .container-child {
-  @apply flex justify-center flex-wrap items-center gap-5   bg-[#F5F5F5]  py-4   rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border mt-5 lg:text-sm text-xs ;
+  @apply flex justify-center flex-wrap items-center lg:gap-5 md:gap-3 gap-2   bg-[#F5F5F5]  py-4   rounded-bl-[36px] rounded-br-[36px] border-gray-200 shadow border mt-5 lg:text-sm text-xs ;
 }
 .container-top {
   @apply w-[70%] mx-auto rounded-[25px] border border-gray-200 bg-white text-center p-[15px] relative z-40 transform translate-y-[-50%]   text-xs lg:text-sm
