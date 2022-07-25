@@ -25,7 +25,7 @@ const Medicals = () => {
           </Link>
         </div>
         <div>
-          <Link to={"/"}>
+          <Link to={"/HappyMembersCreditUnion"}>
             <CreateUnion />
           </Link>
         </div>

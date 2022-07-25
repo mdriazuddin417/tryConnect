@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { GiMedicalDrip } from "react-icons/gi";
-import { FiArrowLeft } from "react-icons/fi";
-import { useNavigate } from "react-router-dom";
 import Choose from "./Choose";
 import StaffPassport from "./StaffPassport";
 import Employment from "./Employment";
@@ -12,10 +10,6 @@ const SunCrestMedical = () => {
   const [active1, setActive1] = useState(false);
   const [active2, setActive2] = useState(false);
   const [active3, setActive3] = useState(false);
-  const navigate = useNavigate();
-  const backPage = () => {
-    navigate("/");
-  };
 
   return (
     <div className="h-screen flex flex-col justify-between ">
@@ -58,7 +52,7 @@ const SunCrestMedical = () => {
           <SetupLogin setActive3={setActive3} />
         </div>
       )}
-      <BackPage text="e0725a" bg="bg-1" />
+      <BackPage text="text-1" bg="bg-1" />
     </div>
   );
 };

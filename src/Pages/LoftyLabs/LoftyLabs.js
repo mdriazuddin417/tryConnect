@@ -1,33 +1,30 @@
 import React, { useState } from "react";
 import BackPage from "../../components/Shared/BackPage";
-import PasswordChild from "../../components/sunCrestMedical/PasswordChild";
-import Parcadias from "./Parcadias";
-import Passport from "./Passport";
-
-const PassPortOffice = () => {
+import LabsChild from "../../components/loftyLabs/LabsChild";
+import LoftyLabsChildren from "./LoftyLabsChildren";
+const LoftyLabs = () => {
   const [active, setActive] = useState(false);
-
   return (
     <div className="h-screen flex flex-col justify-between ">
       <div className="p-5">
-        <div className="section bg-2 ">
-          <PasswordChild />
+        <div className="section bg-4 ">
+          <LabsChild />
         </div>
       </div>
       {active || (
         <div>
-          <Parcadias setActive={setActive} />
+          <LoftyLabsChildren setActive={setActive} />
         </div>
       )}
-      {active && (
+      {/* {active && (
         <div>
           <Passport setActive={setActive} />
         </div>
-      )}
+      )} */}
 
-      <BackPage text="text-2" bg="bg-2" />
+      <BackPage text="text-4" bg="bg-4" />
     </div>
   );
 };
 
-export default PassPortOffice;
+export default LoftyLabs;

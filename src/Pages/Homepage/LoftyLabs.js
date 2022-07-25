@@ -14,13 +14,13 @@ const LoftyLabs = () => {
 
       <div className="space-y-8">
         <div>
-          <Link to={"/"}>
-            <Health />
+          <Link to={"/LoftyLabs"}>
+            <Labs />
           </Link>
         </div>
         <div>
-          <Link to={"/"}>
-            <Labs />
+          <Link to={"/HealingHealth"}>
+            <Health />
           </Link>
         </div>
       </div>

@@ -32,6 +32,30 @@ body {
 .bg-8 {
   @apply bg-gradient-to-r from-[#3CC1B1] to-[#13D1BA];
 }
+.text-1{
+  color:#e0725a
+}
+.text-2{
+  color:#6F5ED8
+}
+.text-3{
+  color:#EAB124
+}
+.text-4{
+  color:#E06DAB
+}
+.text-5{
+  color:#6ED999
+}
+.text-6{
+  color:#97C159
+}
+.text-7{
+  color:#63AED9
+}
+.text-8{
+  color:#13D1BA
+}
 
 .container {
   @apply lg:w-[80%] md:w-[90%] w-full mx-auto bg-white relative px-8 rounded-[36px] border-gray-200 shadow border  pt-16 pb-24;

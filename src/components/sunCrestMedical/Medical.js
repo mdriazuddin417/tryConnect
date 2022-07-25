@@ -1,6 +1,7 @@
 import React from "react";
-import { GiMedicalDrip } from "react-icons/gi";
+
 import SubChild from "../SubChild";
+import MedicalChild from "./MedicalChild";
 
 const Medical = () => {
   return (
@@ -10,17 +11,7 @@ const Medical = () => {
       </SubChild>
 
       <div className="section bg-1 absolute top-0 left-0 duration-300">
-        <div className="flex justify-center items-center gap-5">
-          <span className="text-white text-4xl">
-            <GiMedicalDrip />
-          </span>
-          <div className="text-white">
-            <h3 className="header-title">SunCrest Medical</h3>
-            <p className="header-info">
-              Get Proof of Employment and Staff Passport credentials here
-            </p>
-          </div>
-        </div>
+        <MedicalChild />
       </div>
     </div>
   );

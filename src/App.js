@@ -3,6 +3,8 @@ import Home from "../src/Pages/Homepage/Home";
 import { Route, Routes } from "react-router-dom";
 import SunCrestMedical from "./Pages/sunCrestMedical/SunCrestMedical";
 import PassPortOffice from "./Pages/passportOffice/PassPortOffice";
+import HappyMembersCreditUnion from "./Pages/HappyMembersCreditUnion/HappyMembersCreditUnion";
+import LoftyLabs from "./Pages/LoftyLabs/LoftyLabs";
 
 function App() {
   return (
@@ -11,6 +13,11 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/suncrestmedical" element={<SunCrestMedical />} />
         <Route path="/passportoffice" element={<PassPortOffice />} />
+        <Route
+          path="/HappyMembersCreditUnion"
+          element={<HappyMembersCreditUnion />}
+        />
+        <Route path="/LoftyLabs" element={<LoftyLabs />} />
       </Routes>
     </div>
   );
