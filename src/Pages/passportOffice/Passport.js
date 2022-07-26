@@ -4,7 +4,12 @@ import RefreshData from "../../components/Shared/RefreshData";
 
 const Passport = ({ setActive }) => {
   return (
-    <div className="w-[80%] text-center mx-auto space-y-8">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      className="w-[80%] text-center mx-auto space-y-8"
+    >
       <div className=" space-y-2">
         <h3 className="lg:text-3xl text-xl text-[#6F5ED8] ">
           Scan the code with your Connect.Me app.

@@ -23,7 +23,12 @@ const AffordableAirlines = () => {
       )}
 
       {active && (
-        <div className="flex flex-col justify-center items-center space-y-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center space-y-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Do you have both of these credentials?
           </h3>
@@ -48,7 +53,12 @@ const AffordableAirlines = () => {
         </div>
       )}
       {checkNo && !active && !checkYes && (
-        <div className="w-[70%] mx-auto flex  justify-center items-center text-center px-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="w-[70%] mx-auto flex  justify-center items-center text-center px-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Go get your{" "}
             <span className="underline cursor-pointer">COVID19 Test</span> and
@@ -58,7 +68,12 @@ const AffordableAirlines = () => {
         </div>
       )}
       {(checkYes || (checkNo && active)) && (
-        <div className="flex flex-col justify-center items-center text-center px-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center text-center px-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Please scan the code and share your information using Connect.Me.
           </h3>

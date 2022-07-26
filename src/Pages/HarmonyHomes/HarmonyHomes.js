@@ -23,7 +23,12 @@ const HarmonyHomes = () => {
       )}
 
       {active && (
-        <div className="flex flex-col justify-center items-center space-y-4">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center space-y-4"
+        >
           <h3 className="text-lg text-center">
             You need a{" "}
             <span className="underline cursor-pointer">Loan Approval</span> from
@@ -39,7 +44,12 @@ const HarmonyHomes = () => {
         </div>
       )}
       {checkNo && !active && !checkYes && (
-        <div className="flex  justify-center items-center text-center px-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex  justify-center items-center text-center px-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-7   ">
             Go get your Loan Approval from{" "}
             <span className="underline cursor-pointer">Large Loans</span> Then
@@ -48,7 +58,12 @@ const HarmonyHomes = () => {
         </div>
       )}
       {(checkYes || (checkNo && active)) && (
-        <div className="flex flex-col justify-center items-center text-center px-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center text-center px-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-7">
             Please scan the code to share your Loan Approval.
           </h3>

@@ -23,7 +23,12 @@ const HealingHealth = () => {
       )}
 
       {active && (
-        <div className="flex flex-col justify-center items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
             Do you have both of these credentials?
           </h3>
@@ -48,7 +53,12 @@ const HealingHealth = () => {
         </div>
       )}
       {checkNo && !active && !checkYes && (
-        <div className="flex  justify-center items-center text-center px-10">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex  justify-center items-center text-center px-10"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
             Go get your{" "}
             <span className="underline cursor-pointer cursor-pointer">
@@ -63,7 +73,12 @@ const HealingHealth = () => {
         </div>
       )}
       {(checkYes || (checkNo && active)) && (
-        <div className="flex flex-col justify-center items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5 text-center">
             Please scan the code and share your Passport using Connect.Me.
           </h3>

@@ -3,7 +3,12 @@ import RefreshData from "../../components/Shared/RefreshData";
 
 const FinancialProfile = ({ setActive1 }) => {
   return (
-    <div className="w-[80%] text-center mx-auto space-y-8">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      className="w-[80%] text-center mx-auto space-y-8"
+    >
       <div className="lg:w-[70%] mx-auto  space-y-2">
         <h3 className="lg:text-3xl text-xl text-[#FCA43E] ">
           Scan the code with your Connect.Me app.

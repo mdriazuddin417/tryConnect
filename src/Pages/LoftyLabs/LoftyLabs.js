@@ -23,7 +23,12 @@ const LoftyLabs = () => {
       )}
 
       {active && (
-        <div className="flex flex-col justify-center items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center"
+        >
           <h3 className="lg:text-4xl text-2xl text-4">
             Do you have your passport?
           </h3>
@@ -43,7 +48,12 @@ const LoftyLabs = () => {
         </div>
       )}
       {checkNo && !active && !checkYes && (
-        <div className="flex  justify-center items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex  justify-center items-center"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Go get your Passport from
             <span className="underline cursor-pointer">
@@ -54,7 +64,12 @@ const LoftyLabs = () => {
         </div>
       )}
       {(checkYes || (checkNo && active)) && (
-        <div className="flex flex-col justify-center items-center">
+        <div
+          data-aos="fade-left"
+          data-aos-offset="500"
+          data-aos-duration="500"
+          className="flex flex-col justify-center items-center"
+        >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Please scan the code and share your Passport using Connect.Me.
           </h3>

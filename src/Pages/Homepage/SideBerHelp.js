@@ -4,7 +4,7 @@ const SideBerHelp = () => {
   const [open, setOpen] = useState(false);
   return (
     <>
-      {open ? (
+      {!open ? (
         <div
           onClick={() => setOpen(!open)}
           className="p-[10px] cursor-pointer bg-white  border border-gray-200  home-sidebar z-50 w-[120px] h-[120px]"

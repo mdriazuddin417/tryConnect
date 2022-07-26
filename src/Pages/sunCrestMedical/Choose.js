@@ -4,7 +4,12 @@ import { GiKey } from "react-icons/gi";
 
 const Choose = ({ setActive1, setActive2, setActive3 }) => {
   return (
-    <div className="w-[80%] text-center mx-auto ">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      className="w-[80%] text-center mx-auto "
+    >
       <div className=" w-full mx-auto  lg:space-y-8 md:space-y-5 space-y-12">
         <h3 className="lg:text-4xl md:text-3xl text-[28px] text-1 ">
           Please choose an option.
@@ -17,27 +22,35 @@ const Choose = ({ setActive1, setActive2, setActive3 }) => {
         </p>
 
         <div className="flex lg:justify-between justify-center   gap-2 items-center text-white header-title flex-wrap ">
-          <span
-            onClick={() => setActive1(true)}
-            className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
-          >
-            <FiDownload className="text-3xl font-semibold mr-2" /> Staff
-            Passport
-          </span>
-          <span
-            onClick={() => setActive2(true)}
-            className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
-          >
-            <FiDownload className="text-3xl font-semibold mr-2" /> Proof of
-            Employment
-          </span>
-          <span
-            onClick={() => setActive3(true)}
-            className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
-          >
-            <GiKey className="text-3xl font-semibold mr-2" /> Set up
-            passwordless login
-          </span>
+          <a href="#item2">
+            {" "}
+            <span
+              onClick={() => setActive1(true)}
+              className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
+            >
+              <FiDownload className="text-3xl font-semibold mr-2" /> Staff
+              Passport
+            </span>
+          </a>
+          <a href="#item3">
+            {" "}
+            <span
+              onClick={() => setActive2(true)}
+              className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
+            >
+              <FiDownload className="text-3xl font-semibold mr-2" /> Proof of
+              Employment
+            </span>
+          </a>
+          <a href="#item4">
+            <span
+              onClick={() => setActive3(true)}
+              className="bg-1 p-5 rounded-full cursor-pointer flex items-center"
+            >
+              <GiKey className="text-3xl font-semibold mr-2" /> Set up
+              passwordless login
+            </span>
+          </a>
         </div>
       </div>
     </div>

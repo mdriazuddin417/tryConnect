@@ -5,7 +5,12 @@ const HealthCheck = ({ setActive }) => {
     setActive(true);
   };
   return (
-    <div className="w-[90%] text-center mx-auto space-y-8">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      className="w-[90%] text-center mx-auto space-y-8"
+    >
       <div className="lg:w-[70%] mx-auto  space-y-8">
         <h3 className="lg:text-4xl md:text-3xl text-[28px] text-5">
           Thank you for coming. Please check in.

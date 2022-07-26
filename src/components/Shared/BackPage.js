@@ -14,7 +14,7 @@ const BackPage = ({ text, bg }) => {
       <span className="text-white">
         Want to try this for real?{" "}
         <span className="font-bold underline cursor-pointer ">Contact us</span>
-      </span>
+      </span>{" "}
       <span
         className={`lg:text-2xl text-xl bg-white p-5 rounded-full font-bold ${text} flex items-center gap-4 cursor-pointer hover:bg-gray-200 justify-center`}
         onClick={backPage}

@@ -3,7 +3,12 @@ import { FiDownload } from "react-icons/fi";
 import { GiKey } from "react-icons/gi";
 const ChooseOption = ({ setActive1, setActive2 }) => {
   return (
-    <div className="w-[80%] text-center mx-auto space-y-8">
+    <div
+      data-aos="fade-left"
+      data-aos-offset="500"
+      data-aos-duration="500"
+      className="w-[80%] text-center mx-auto space-y-8"
+    >
       <div className="lg:w-[70%] mx-auto  space-y-8">
         <h3 className="lg:text-4xl md:text-3xl text-[28px] text-3">
           Please choose an option.

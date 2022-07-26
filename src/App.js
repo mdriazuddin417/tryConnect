@@ -9,8 +9,11 @@ import HealingHealth from "./Pages/HealingHealth/HealingHealth";
 import LargeLoans from "./Pages/LargeLoansPage/LargeLoans";
 import HarmonyHomes from "./Pages/HarmonyHomes/HarmonyHomes";
 import AffordableAirlines from "./Pages/AffordableAirlines/AffordableAirlines";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function App() {
+  AOS.init();
   return (
     <div className="App max-w-7xl mx-auto">
       <Routes>
