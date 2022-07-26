@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import LargeLoans from "./LargeLoans";
 import LoftyLabs from "./LoftyLabs";
 import Medical from "./Medicals";
+import SideBerHelp from "./SideBerHelp";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <LoftyLabs />
         <LargeLoans />
         <AirlinesParent />
+        <SideBerHelp />
       </div>
       <Footer />
     </>

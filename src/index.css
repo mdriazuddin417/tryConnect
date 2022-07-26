@@ -88,3 +88,7 @@ body {
 .parent-section:hover .section{
   @apply lg:w-[70%] md:w-[70%] w-full
 }
+
+.home-sidebar{
+  @apply md:rounded-tr-xl  lg:rounded-tr-xl lg:rounded-br-xl md:rounded-br-xl rounded-bl-xl rounded-tl-xl fixed lg:top-12 md:top-12 bottom-12 lg:left-0 md:left-0 right-0
+}
