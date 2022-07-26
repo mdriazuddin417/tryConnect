@@ -25,8 +25,6 @@ const HealingHealth = () => {
       {active && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
@@ -55,8 +53,6 @@ const HealingHealth = () => {
       {checkNo && !active && !checkYes && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex  justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5">
@@ -75,8 +71,6 @@ const HealingHealth = () => {
       {(checkYes || (checkNo && active)) && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-5 text-center">

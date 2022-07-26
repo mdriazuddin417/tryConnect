@@ -26,15 +26,12 @@ const RefreshData = ({ setActive, bg, setCheckNo, setCheckYes }) => {
         )}
       </div>
       <div className="flex justify-center items-center text-white">
-        <a href="#item1">
-          {" "}
-          <button
-            onClick={CancelBtn}
-            className={`${bg} lg:px-4 px-3  py-3  lg:text-3xl text-2xl rounded-full flex justify-center gap-2`}
-          >
-            ✖ Cancel
-          </button>
-        </a>
+        <button
+          onClick={CancelBtn}
+          className={`${bg} lg:px-4 px-3  py-3  lg:text-3xl text-2xl rounded-full flex justify-center gap-2`}
+        >
+          ✖ Cancel
+        </button>
       </div>
     </>
   );

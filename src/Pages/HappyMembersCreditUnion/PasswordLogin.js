@@ -3,12 +3,7 @@ import RefreshData from "../../components/Shared/RefreshData";
 
 const PasswordLogin = ({ setActive2 }) => {
   return (
-    <div
-      data-aos="fade-left"
-      data-aos-offset="500"
-      data-aos-duration="500"
-      className="w-[80%] text-center mx-auto space-y-8"
-    >
+    <div className="w-[80%] text-center mx-auto space-y-8">
       <div className="lg:w-[90%] mx-auto  space-y-2">
         <h3 className="lg:text-3xl text-xl text-[#FCA43E] ">
           Scan the code with your Connect.Me app.

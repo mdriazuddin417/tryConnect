@@ -16,17 +16,17 @@ const HappyMembersCreditUnion = () => {
         </div>
       </div>
       {active1 || active2 || (
-        <div>
+        <div data-aos="fade-left">
           <ChooseOption setActive1={setActive1} setActive2={setActive2} />
         </div>
       )}
       {active1 && (
-        <div>
+        <div data-aos="fade-left">
           <FinancialProfile setActive1={setActive1} />
         </div>
       )}
       {active2 && (
-        <div>
+        <div data-aos="fade-left">
           <PasswordLogin setActive2={setActive2} />
         </div>
       )}

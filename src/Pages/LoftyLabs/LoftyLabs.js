@@ -25,8 +25,6 @@ const LoftyLabs = () => {
       {active && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center"
         >
           <h3 className="lg:text-4xl text-2xl text-4">
@@ -48,12 +46,7 @@ const LoftyLabs = () => {
         </div>
       )}
       {checkNo && !active && !checkYes && (
-        <div
-          data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
-          className="flex  justify-center items-center"
-        >
+        <div data-aos="fade-left" className="flex  justify-center items-center">
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">
             Go get your Passport from
             <span className="underline cursor-pointer">
@@ -66,8 +59,6 @@ const LoftyLabs = () => {
       {(checkYes || (checkNo && active)) && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-4 text-center">

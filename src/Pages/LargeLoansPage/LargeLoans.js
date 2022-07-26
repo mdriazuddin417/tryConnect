@@ -25,8 +25,6 @@ const LargeLoans = () => {
       {active && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center space-y-4 px-3"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-6  ">
@@ -57,8 +55,6 @@ const LargeLoans = () => {
       {checkNo && !active && !checkYes && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex  justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-6">
@@ -73,8 +69,6 @@ const LargeLoans = () => {
       {(checkYes || (checkNo && active)) && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-6">

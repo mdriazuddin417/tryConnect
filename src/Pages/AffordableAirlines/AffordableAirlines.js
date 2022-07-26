@@ -25,8 +25,6 @@ const AffordableAirlines = () => {
       {active && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center space-y-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
@@ -55,8 +53,6 @@ const AffordableAirlines = () => {
       {checkNo && !active && !checkYes && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="w-[70%] mx-auto flex  justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
@@ -70,8 +66,6 @@ const AffordableAirlines = () => {
       {(checkYes || (checkNo && active)) && (
         <div
           data-aos="fade-left"
-          data-aos-offset="500"
-          data-aos-duration="500"
           className="flex flex-col justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
