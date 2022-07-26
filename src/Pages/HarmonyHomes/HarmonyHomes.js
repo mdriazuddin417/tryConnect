@@ -9,7 +9,7 @@ const HarmonyHomes = () => {
   const [checkNo, setCheckNo] = useState(false);
   const [checkYes, setCheckYes] = useState(false);
   return (
-    <div className="h-screen flex flex-col justify-between ">
+    <div className="h-screen flex flex-col justify-between overflow-hidden">
       <div className="p-5">
         <div className="section bg-7 ">
           <HarmonyChild />

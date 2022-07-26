@@ -9,7 +9,7 @@ const HappyMembersCreditUnion = () => {
   const [active2, setActive2] = useState(false);
 
   return (
-    <div className="h-screen flex flex-col justify-between ">
+    <div className="h-screen flex flex-col justify-between overflow-hidden">
       <div className="p-5">
         <div className="section bg-3 ">
           <UnionChild />

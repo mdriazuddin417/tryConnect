@@ -11,6 +11,7 @@ import HarmonyHomes from "./Pages/HarmonyHomes/HarmonyHomes";
 import AffordableAirlines from "./Pages/AffordableAirlines/AffordableAirlines";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import NotFound from "./Pages/NotFound";
 
 function App() {
   AOS.init();
@@ -29,6 +30,7 @@ function App() {
         <Route path="/LargeLoans" element={<LargeLoans />} />
         <Route path="/HarmonyHomes" element={<HarmonyHomes />} />
         <Route path="/AffordableAirlines" element={<AffordableAirlines />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   );

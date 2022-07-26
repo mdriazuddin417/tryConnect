@@ -12,7 +12,7 @@ const SunCrestMedical = () => {
   const [active3, setActive3] = useState(false);
 
   return (
-    <div className="h-screen flex flex-col justify-between ">
+    <div className="h-screen flex flex-col justify-between overflow-hidden">
       <div className="p-5">
         <div className="section bg-1 ">
           <MedicalChild />

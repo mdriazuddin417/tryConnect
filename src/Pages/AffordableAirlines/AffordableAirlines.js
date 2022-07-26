@@ -9,7 +9,7 @@ const AffordableAirlines = () => {
   const [checkNo, setCheckNo] = useState(false);
   const [checkYes, setCheckYes] = useState(false);
   return (
-    <div className="h-screen flex flex-col justify-between ">
+    <div className="h-screen flex flex-col justify-between overflow-hidden">
       <div className="p-5">
         <div className="section bg-8 ">
           <AirlinesChild />
@@ -53,7 +53,7 @@ const AffordableAirlines = () => {
       {checkNo && !active && !checkYes && (
         <div
           data-aos="fade-left"
-          className="w-[70%] mx-auto flex  justify-center items-center text-center px-10"
+          className="lg:w-[70%] md:w-[80%] w-[90%] mx-auto flex  justify-center items-center text-center px-10"
         >
           <h3 className="lg:text-4xl md:text-3xl text-2xl text-8">
             Go get your{" "}
