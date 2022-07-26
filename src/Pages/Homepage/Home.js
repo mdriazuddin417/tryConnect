@@ -9,7 +9,7 @@ import SideBerHelp from "./SideBerHelp";
 const Home = () => {
   return (
     <>
-      <div className="flex flex-col justify-center gap-16 items-center pb-10 pt-16">
+      <div className="flex flex-col justify-center gap-16 items-center pb-10 pt-16 relative">
         <Medical />
         <LoftyLabs />
         <LargeLoans />

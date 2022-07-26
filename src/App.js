@@ -16,7 +16,7 @@ import NotFound from "./Pages/NotFound";
 function App() {
   AOS.init();
   return (
-    <div className="App max-w-7xl mx-auto">
+    <div className="App max-w-7xl mx-auto relative">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/suncrestmedical" element={<SunCrestMedical />} />
